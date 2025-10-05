@@ -1,0 +1,23 @@
+/* Table Styles */
+.tableRow {
+    padding: 8px;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+/* Hover Effect */
+.tableRow:hover {
+    background-color: #bcd3e7; /* Light blue background on hover */
+}
+
+/* Header Styles */
+.headerRow {
+    font-weight: bold;
+    background-color: #e0e0e0; /* Gray background for headers */
+}
+
+/* Footer Row Styles */
+.footerRow {
+    font-weight: bold;
+    background-color: #d0d0d0; /* Footer highlight */
+}

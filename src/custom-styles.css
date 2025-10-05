@@ -1,0 +1,60 @@
+/* Custom styles for the pivot table */
+
+/* Style the pivot table container */
+.pvtTable {
+    width: 90%;
+    height: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  /* Style the column headers */
+  .pvtColLabel {
+    background-color: #4CAF50;  /* Change background color */
+    color: rgb(3, 2, 2);                /* Change text color */
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #ddd;
+  }
+  
+  /* Style the row headers */
+  .pvtRowLabel {
+    background-color: #4CAF50;
+    color: rgb(8, 5, 5);
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #ddd;
+  }
+  
+  /* Style the values (cells) */
+  .pvtVal {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Style for hovered cells */
+  .pvtTable tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Style for table header row */
+  .pvtTable th {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #555;
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Adjustments for plot chart container */
+  .pvtRenderer {
+    margin-top: 20px;
+  }
+  

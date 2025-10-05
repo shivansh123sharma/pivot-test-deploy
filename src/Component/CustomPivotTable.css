@@ -1,0 +1,81 @@
+/* CustomPivotTable.css */
+
+/* Pivot Table Container */
+.pvtTable {
+    width: 100% !important;
+    /* max-height: 50vh !important; */
+    border-collapse: collapse !important;
+    font-family: 'Arial', sans-serif !important;
+    font-size: 14px !important;
+    color: #333 !important;
+    border-radius: 10px !important;
+    overflow: scroll !important;
+  }
+  
+  /* Header Cells (Top Row and Column Headers) */
+  .pvtTable th {
+    background-color: #8fecd7 !important; /* Blue background */
+    color: rgb(18, 12, 12) !important;
+    padding: 5px !important;
+    border: 1px solid #0c0c0c !important;
+    text-align: center !important;
+    font-size: 14px !important;
+    /* position: fixed !important; */
+  }
+  
+  /* Data Cells */
+  .pvtTable td {
+    padding: 8px !important;
+    border: 1px solid #000000 !important;
+    text-align: center !important;
+    background-color: #f8f9fa !important; /* Light background */
+
+    }
+  
+  /* Row Header Cells */
+  .pvtRowLabel {
+    background-color: #f2f2f2 !important; /* Light gray */
+    font-weight: bold !important;
+  }
+  
+  /* Column Header Cells */
+  .pvtColLabel {
+    background-color: #e6e6e6 !important; /* Light gray */
+    font-weight: bold !important;
+  }
+  
+  /* Grand Total Cells */
+  .pvtGrandTotal {
+    background-color: #f8da81 !important; /* Yellow background */
+    font-weight: bold !important;
+  }
+  
+  /* Subtotal Cells */
+  .pvtTotal {
+    background-color: #d4edda !important; /* Light green */
+    font-weight: bold !important;
+  }
+  
+  /* Hover Effect */
+  .pvtTable td:hover {
+    background-color: #f5de80 !important; /* Light yellow */
+    /* cursor: pointer !important; */
+    transition: background-color 1s ease !important;
+  }
+  
+  /* Button Style */
+  .custom-download-btn {
+    margin-top: 20px !important;
+    padding: 10px 20px !important;
+    background-color: #007bff !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+    font-size: 14px !important;
+  }
+  
+  .custom-download-btn:hover {
+    background-color: #0056b3 !important; /* Darker blue on hover */
+  }
+  
