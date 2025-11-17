@@ -1,22 +1,22 @@
 name: OIDC GITACTION TEST DEPLOY
 
 on:
-  workflow:_dispatch:
+  workflow_dispatch:
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     permissions:
-      id_token: write
+      id-token: write
       contents: read
 
     steps: 
-      - name: checkout repository
+      - name: Checkout repository
         uses: actions/checkout@v3
 
       - name: configure AWS Cred using OIDC
-        uses: aws-actions/configure-aws-credentialv@4
+        uses: aws-actions/configure-aws-credentials@v4
         with:
           role-to-assume: arn:aws:iam::775696080909:role/OIDC-gitaction-demo
           aws-region: us-east-1
